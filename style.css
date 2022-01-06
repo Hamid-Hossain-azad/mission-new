@@ -117,13 +117,13 @@ h2{
     border-radius: 5px;
 }
 .corona-apps img{
-    width: 50%;
+    width: 60%;
     padding-left: 150px;
 }
 .corona-apps .last-width{
     width: 50%;
     flex-basis: 500px;
-    padding-left: 30px;
+    padding-left: 100px;
 
 }
 .corona-apps .last-width span{
@@ -142,10 +142,10 @@ h2 span{
 }
 
 .corona-apps{
-    background-image: url(images/shapes/shape-9.png);
+    background-image: url(images/shapes/shape-6.png);
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position: center;
+    background-position:center;
 }
 footer{
     background: black;
