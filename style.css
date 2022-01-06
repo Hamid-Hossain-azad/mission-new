@@ -24,6 +24,9 @@ section {
     width: 50%;
     padding: 5%;
 }
+.flexible-container .first-pic{
+    padding: 10%;
+}
 .half-width img{
     width: 70%;
 }
