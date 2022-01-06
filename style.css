@@ -2,6 +2,8 @@ body{
     font-family: 'Playfair Display', serif;
     margin: 0%;
     position: absolute;
+    border: 0%;
+    border-collapse: collapse;
 }
 .flexible-container .half-width h1{
    border-left: 2px solid;
@@ -50,6 +52,12 @@ h2{
     background: wheat;
     border-radius: 10px;
     padding: 20px;
+}
+.mission-vission .img1{
+    background: rgba(218, 180, 180, 0.781);
+}
+.mission-vission .img2{
+    background: rgba(165, 115, 153, 0.781);
 }
 .four{
     padding:30px;
@@ -131,6 +139,8 @@ h2 span{
 .corona-apps{
     background-image: url(images/shapes/shape-9.png);
     background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
 }
 footer{
     background: black;
@@ -139,7 +149,6 @@ footer h1{
     font-family: 'The Nautigal', cursive;
     color: white;
     text-align: center;
-    margin: 0%;
 }
 footer p{
     font-family: 'The Nautigal', cursive;
@@ -148,5 +157,5 @@ footer p{
     font-size: 30px;
 }
 footer span{
-    color: rgba(226, 17, 17, 0.781);
+    color: rgb(194, 70,72);
 }
