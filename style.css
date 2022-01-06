@@ -1,6 +1,11 @@
 body{
     font-family: 'Playfair Display', serif;
     margin: 0%;
+    position: absolute;
+}
+.flexible-container .half-width h1{
+   border-left: 2px solid;
+   border-color: red;
 }
 h1{
     font-size: 50px;
@@ -21,7 +26,7 @@ section {
     width: 70%;
 }
 .link-fb{
-    background-color:tomato;
+    background-color: rgb(255, 89, 89);
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -29,7 +34,7 @@ section {
 h2{
     text-align: center;
     font-size: 50px;
-    color: rgb(255, 0, 43);
+    color: rgb(19, 16,58);
     padding: 20px;
 }
 .imagess img{
@@ -48,9 +53,11 @@ h2{
 }
 .four{
     padding:30px;
-    background-image: url(images/shapes/shape-9.png);
+    background-image: url(images/shapes/shape-2.png);
     background-repeat: no-repeat;
     background-position: 0%;
+    background-size: 200px;
+    background-position: 20%;
 }
 .four .middle-half{
     width: 50%;
@@ -65,7 +72,7 @@ h2{
     padding-left: 150px;
 }
 .four .middle-half a{
-    background-color: tomato;;
+    background-color:  rgb(255, 89, 89);;
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -91,7 +98,7 @@ h2{
     padding-right: 250px;
 }
 .five .last-half a{
-    background-color: tomato;;
+    background-color:  rgb(255, 89, 89);;
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -106,6 +113,21 @@ h2{
     padding-left: 30px;
 
 }
+.corona-apps .last-width span{
+    color: rgb(255, 173, 90);
+}
+.corona-apps .last-width a{
+    background-color: rgb(255, 89, 89);;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(252, 252, 252);
+
+}
+h2 span{
+    color: rgb(255, 173, 90);
+}
+
 .corona-apps{
     background-image: url(images/shapes/shape-9.png);
     background-repeat: no-repeat;
@@ -114,11 +136,17 @@ footer{
     background: black;
 }
 footer h1{
+    font-family: 'The Nautigal', cursive;
     color: white;
     text-align: center;
     margin: 0%;
 }
 footer p{
+    font-family: 'The Nautigal', cursive;
     color: white;
     text-align: center;
+    font-size: 30px;
+}
+footer span{
+    color: rgba(226, 17, 17, 0.781);
 }
