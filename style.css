@@ -116,20 +116,20 @@ h2{
     text-decoration: none;
     border-radius: 5px;
 }
-.corona-apps img{
-    width: 60%;
-    padding-left: 150px;
+.about-me img{
+    width: 90%;
+    padding-left: 100px;
 }
-.corona-apps .last-width{
+.about-me .last-width{
     width: 50%;
-    flex-basis: 500px;
+    flex-basis: 400px;
     padding-left: 100px;
 
 }
-.corona-apps .last-width span{
+.about-me .last-width span{
     color: rgb(255, 173, 90);
 }
-.corona-apps .last-width a{
+.about-me .last-width a{
     background-color: rgb(255, 89, 89);;
     padding: 5px 10px;
     text-decoration: none;
@@ -141,14 +141,15 @@ h2 span{
     color: rgb(255, 173, 90);
 }
 
-.corona-apps{
+.about-me{
     background-image: url(images/shapes/shape-6.png);
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 400px;
     background-position:center;
 }
 footer{
     background: black;
+    padding: 5px;
 }
 footer h1{
     font-family: 'The Nautigal', cursive;
