@@ -8,6 +8,8 @@ body{
 .flexible-container .half-width h1{
    border-left: 2px solid;
    border-color: red;
+   padding-left: 10px;
+
 }
 h1{
     font-size: 50px;
